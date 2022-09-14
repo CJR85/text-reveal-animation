@@ -55,4 +55,11 @@ nav ul li a {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -750px 0;
+  animation: backcolor 5s linear infinite alternate;
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
 }
